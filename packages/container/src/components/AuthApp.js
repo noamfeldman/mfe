@@ -3,7 +3,6 @@ import { mount } from "auth/AuthApp";
 import { useHistory } from "react-router-dom";
 
 export default () => {
-    console.log('delete me!!!');
   const ref = useRef(null);
   const history = useHistory();
 
