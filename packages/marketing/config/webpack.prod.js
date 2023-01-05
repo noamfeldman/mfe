@@ -7,6 +7,7 @@ const prodConig = {
     mode: "production",
     output: {
       filename: "[name][contenthash].js",
+      publicPath: '/marketing/latest/'
     },
     plugins: [
       new ModuleFederationPlugin({
