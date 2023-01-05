@@ -14,7 +14,7 @@ const prodConig = {
         name: "dashboard",
         filename: "remoteEntry.js",
         exposes: {
-            "./DashbordApp": "./src/bootstrap",
+            "./DashboardApp": "./src/bootstrap",
           },
         shared: packageJson.dependencies,
       }),
